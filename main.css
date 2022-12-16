@@ -1,0 +1,116 @@
+html,
+body {
+  height: 100%;
+  margin: 20px;
+  white-space: nowrap;
+}
+
+header {
+    display: flex;
+    position: fixed;
+}
+
+.title-container {
+    color: #101214;
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-container h2 {
+    font-weight: normal;
+}
+
+.image-container {
+    width: 20%;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header + .content {
+    padding-top: 102px;
+}
+
+main {
+    width: 100%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.inner-container {
+    margin: 45px 0px;
+}
+
+main p {
+    word-wrap: break-word;
+}
+
+.duration {
+    font-size: 11px;
+    color: #73808D;
+}
+
+.title {
+    color: #73808D;
+}
+
+.left-container {
+    width: 70%;
+    float: left;
+}
+
+.left-container-title {}
+
+.experience-title {
+    font-weight: 700;
+}
+
+.enterprise-name {
+    font-weight: 500;
+}
+
+.experience-description {}
+
+
+.education-title {
+    font-weight: 700;
+}
+
+.institution-name {
+    font-weight: 500;
+}
+
+.right-container {
+    width: 30%;
+    float: right;
+    color: #73808D;
+}
+
+.right-container-title {
+    font-weight: 700;
+}
+
+.native {
+    color: blue;
+}
+.fluent {
+    color: green;
+}
+
+.intermediate{}
+
+.beginner {
+    color: red;
+}
+
