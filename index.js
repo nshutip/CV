@@ -7,20 +7,7 @@ function getRandomColor() {
   return color;
 }
 
-function setRandomColor(div) {
-  div.css("color", getRandomColor());
+function setRandomColor() {
+  const mainTitle = document.getElementById('main-title');
+  mainTitle.style.color = getRandomColor();
 }
-
-// document.getElementsById('main-title')[0]
-//   .addEventListener('click', function setRandomColor(event) {
-//     event.css("color", getRandomColor());
-//   });
-
-// const mainTitle = document.getElementById('main-title');
-
-// if (mainTitle) {
-//   mainTitle.addEventListener('click', function (event){
-//     event.css("color", getRandomColor);
-//     console.log(getRandomColor);
-//   })
-// };

@@ -106,3 +106,12 @@ main {
     color: red;
 }
 
+.social-icon {
+    margin: 0px 5px;
+    
+}
+
+.social-icon img {
+    width: 5vh;
+}
+
